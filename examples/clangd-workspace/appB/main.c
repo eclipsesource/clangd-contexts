@@ -12,7 +12,7 @@
      float a;
  } TestStruct_t;
 #endif
-
+// This is the main of project b
 volatile float global_value = 1.234f;
 
 int main() {

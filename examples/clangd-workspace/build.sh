@@ -43,4 +43,5 @@ for config_entry in "${configs[@]}"; do
 
   build "$config" "lib/$config" "$config_argline"
   build "$config" "app/$config" "$config_argline"
+  build "$config" "appB/$config" "$config_argline"
 done

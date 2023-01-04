@@ -32,7 +32,7 @@
   "dependencies": {},
   "scripts": {
     "preinstall": "node-gyp install",
-    "prepare": "yarn prepare:build && yarn prepare:hoisting && yarn download:plugins && yarn prepare:package",
+    "prepare": "yarn prepare:build && yarn prepare:hoisting && yarn download:plugins",
     "prepare:build": "yarn build && lerna run lint && lerna run build --stream --parallel",
     "prepare:hoisting": "theia check:hoisted -s",
     "prepare:package": "yarn --cwd examples/clangd-contexts-ext package",

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "examples/clangd-workspace/app"
+		},
+		{
+			"path": "examples/clangd-workspace/appB"
+		}
+	],
+	"settings": {}
+}
